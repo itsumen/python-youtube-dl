@@ -1,0 +1,11 @@
+version: '3'
+services:
+
+  youtube:
+    build: .
+    container_name: youtube
+    working_dir: /root/app
+    volumes:
+      - ./file:/root/app
+    tty: true
+    restart: always
