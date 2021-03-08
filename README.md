@@ -22,12 +22,14 @@ $ docker-compose up -d
 
 ```
 $ docker container exec youtube youtube-dl 動画のURL -f mp4
+$ ls -la file
 ```
 
 ## 音声をダウンロードする
 
 ```
-docker container exec youtube youtube-dl --extract-audio --audio-format mp3 動画のURL
+$ docker container exec youtube youtube-dl --extract-audio --audio-format mp3 動画のURL
+$ ls -la file
 ```
 
 ## コンテナを落とす
