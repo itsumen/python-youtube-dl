@@ -1,5 +1,10 @@
 ## YouTubeの動画・音声ファイルをダウンロードする
 
+## 環境
+
+- docker
+- docker-compose
+
 ## セットアップ
 
 ```
